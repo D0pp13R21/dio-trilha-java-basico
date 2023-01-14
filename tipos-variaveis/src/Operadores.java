@@ -18,8 +18,16 @@ public class Operadores {
         
         int b = 6;
 
-        String resultado = a == b ? "verdadeiro" : "falso";
+        boolean resultado = a == b ? true : false;
 
         System.out.println(resultado);
+
+        boolean resultado2 = true;
+
+        if (resultado && resultado2){
+            System.out.println(true);
+        }else{
+            System.out.println(false);
+        }
     }
 }
